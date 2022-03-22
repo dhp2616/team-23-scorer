@@ -15,6 +15,11 @@ function App(): JSX.Element {
                     <Button onClick={() => setValue(1 + value)}>Add One</Button>
                     to {value}.
                 </span>
+                <span>
+                    <Button onClick={() => setValue(value - 1)}>
+                        Subtract One
+                    </Button>
+                </span>
             </p>
             <p>
                 Edit <code>src/App.tsx</code> and save. This page will
